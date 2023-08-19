@@ -17,7 +17,9 @@ CORS(app)
 !! NOTE THIS MUST BE UNCOMMENTED ON FIRST RUN
 !! Running this function will add one
 '''
-# db_drop_and_create_all()
+# with app.app_context():
+#    db_drop_and_create_all()
+
 
 # ROUTES
 '''
